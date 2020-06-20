@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <name>diwork框架-前端</name>
+    <code>iuap5-diwork-fe-pages</code>
+    <description>diwork框架-前端</description>
+    <nginxCustomTemplate>
+        location /fepages/ {
+            alias  {{ #package.location }};
+        }
+    </nginxCustomTemplate>
+    <!-- 重点是把变化的配置文件都要列出来 -->
+	<configUrls>
+        <configUrl>
+            <source>/dist/zh_CN/js/vendor.js</source>
+            <dest>/zh_CN/js</dest>
+        </configUrl>
+        <configUrl>
+            <source>/dist/zh_CN/js/vendor.js.map</source>
+            <dest>/zh_CN/js</dest>
+        </configUrl>
+        <configUrl>
+            <source>/dist/zh_TW/js/vendor.js</source>
+            <dest>/zh_TW/js</dest>
+        </configUrl>
+        <configUrl>
+            <source>/dist/zh_TW/js/vendor.js.map</source>
+            <dest>/zh_TW/js</dest>
+        </configUrl>
+        <configUrl>
+            <source>/dist/en_US/js/vendor.js</source>
+            <dest>/en_US/js</dest>
+        </configUrl>
+        <configUrl>
+            <source>/dist/en_US/js/vendor.js.map</source>
+            <dest>/en_US/js</dest>
+        </configUrl>
+    </configUrls>
+    <serviceType>NG-FRONT-END</serviceType>
+</project>

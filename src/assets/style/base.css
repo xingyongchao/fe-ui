@@ -1,0 +1,154 @@
+a, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, select, p, blockquote, th, td {
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+fieldset, img {
+	border: 0;
+}
+
+address, button, caption, cite, code, dfn, em, input, optgroup, option, select, strong, textarea, th, var {
+	font: inherit;
+}
+
+del, ins {
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+}
+
+caption, th {
+	text-align: left;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-size: 100%;
+	font-weight: normal;
+}
+
+q:before, q:after {
+	content: '';
+}
+
+abbr, acronym {
+	border: 0;
+	font-variant: normal;
+}
+
+sup {
+	vertical-align: top;
+}
+
+sub {
+	vertical-align: bottom;
+}
+
+/*because legend doesn't inherit in IE */
+
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+button {
+	*overflow: visible;
+}
+
+strong, b {
+	font-weight: bold;
+}
+
+em {
+	font-style: italic;
+}
+
+section, nav, aside, article, header, footer {
+	display: block;
+}
+
+* {
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	box-sizing: border-box;
+	font-family: PingFang SC, tahoma, Hiragino Sans GB, arial, Heiti SC, Microsoft YaHei, "sans-serif" !important;
+}
+
+/***------------ie9下的input的叉号去掉-----------------**/
+
+input::-ms-clear {
+	display: none;
+}
+
+input::-ms-reveal {
+	display: none;
+}
+
+html {
+	width: 100%;
+	height: 100%;
+	min-height: 100%;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	min-height: 100%;
+	margin: 0;
+	padding: 0;
+	-webkit-font-smoothing: auto !important;
+	font-family: PingFang SC, tahoma, Hiragino Sans GB, arial, Heiti SC, Microsoft YaHei, "sans-serif" !important;
+	font-size: 14px;
+	line-height: 1.4 !important;
+	color: #555555;
+}
+
+#root {
+	width: 100%;
+	height: 100%;
+	min-height: 100%;
+	font-size: 14px;
+}
+
+.diwork-header-fixed {
+	width: 100%;
+	background-color: #ffffff;
+	box-shadow: 0 0 10px 4px rgba(252, 189, 189, 0.15);
+}
+
+.diwork-content-fixed {
+	overflow-x: auto;
+	position: relative;
+	background: #A8ABB0;
+	transition: all 0.2s ease-in 0s;
+}
+
+.diworkcontent {
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	padding: 8px;
+	/* padding-left: 15px; */
+	/* padding-right: 15px; */
+}
+
+.contentbg {
+	width: 100%;
+	height: 100%;
+	background: #ffffff;
+	overflow: auto;
+}
+
+.tc i:hover {
+	color: #111111;
+}
+
+.u-tooltip {
+	z-index: 1500;
+}

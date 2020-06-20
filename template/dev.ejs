@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="full-screen" content="true">
+	<meta name="x5-fullscreen" content="true">
+	<meta name="viewport" content="width=375, user-scalable=no, minimal-ui">
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+	<meta http-equiv="X-UA-Compatible" content="IE=EDGE">
+	<meta name="renderer" content="webkit" />
+	<title>cloud os</title>
+	<link rel="manifest" href="./manifest.json">
+	<link rel="stylesheet" href="//design.yonyoucloud.com/static/tinper-bee/latest/assets/theme/tinper-bee-yonsuite.css">
+	<script>
+		function diworkContext() {
+			return {
+				tenantid: 'a65xtqwz',
+				userid: '99ea7655-00a2-4bda-b23c-19ade37ea574',
+				theme: '',
+				username: '',
+				locale: 'zh_CN',
+				timezone: '',
+				productLine: 'diwork',
+				appcode: 'diwork',
+				profile: 'combine',
+				multilist: '[{"default":true,"dislpayName":"简体中文","enabled":true,"id":"30615b17-d9c9-4bd7-b67b-34d81e52ddc9","langCode":"zh_CN","langSequence":1},{"default":false,"dislpayName":"English","enabled":true,"id":"9a8b07d2-4f61-4968-9227-f63da9167d88","langCode":"en_US","langSequence":2},{"default":false,"dislpayName":"繁体中文","enabled":true,"id":"72977a8e-e0ae-4cff-8335-c6ad654c9ba5","langCode":"zh_TW","langSequence":3}]',
+				defaultDesktop: 'workbench',
+				orgStatus: 'multi',
+				businessDate: "2020-12-01",
+			}
+		}
+
+		//获取用户信息
+		function getUserInfo() {
+			return {
+				"admin": true,
+				"openMoments": true,
+				"openHonour": true,
+				"allowTenants": [
+					{ "admin": true, "certificated": false, "enterPrise": true, "status": 1, "team": 1, "tenantId": "j5s3h5zt", "tenantName": "U8C激活测试(测试)", "type": 1 },
+					{ "admin": true, "certificated": false, "enterPrise": true, "status": 1, "team": 0, "tenantId": "ip4uersz", "tenantName": "u8c_gp(测试)", "type": 0 },
+					{ "admin": true, "certificated": false, "enterPrise": true, "logo": "http://cdn.yonyoucloud.com/dev/apcenter/img/logo/LOGO.png", "status": 1, "team": 0, "tenantId": "d6aeu3a1", "tenantName": "u8c_gp", "type": 0 },
+					{ "admin": true, "certificated": false, "enterPrise": true, "status": 1, "team": 0, "tenantId": "v3twazau", "tenantName": "U8C激活(测试)", "type": 0 },
+					{ "admin": true, "certificated": false, "enterPrise": true, "logo": "https://file-cdn.yonyoucloud.com/workbench-image-path-applicationIcon/29da6376-a005-4adb-822b-d872ef0c9259/photo.jpg", "status": 1, "team": 1, "tenantId": "a65xtqwz", "tenantName": "云创股份-U8C", "type": 1 }
+				],
+				"company": "云创股份-U8C",
+				"currentTeamConfig": {
+					"allowExit": "1",
+					"charged": false,
+					"invitePermission": "1",
+					"isWaterMark": 1,
+					"joinPermission": "0",
+					"linkman": "u8c_vip@163.com",
+					"logo": "",
+					"subordinateType": 0,
+					"tenantAddress": "天津|天津|和平区|",
+					"tenantEmail": "u8c_vip@163.com",
+					"tenantId": "a65xtqwz",
+					"tenantIndustry": "C",
+					"tenantName": "云创股份-U8C",
+					"tenantSize": "E",
+					"tenantTel": "8618101319676",
+					"terminal": "web"
+				},
+				"defaultDesktop": "workbench",
+				"gloriesNum": 0,
+				"logo": "https://file-cdn.yonyoucloud.com/workbench-image-path-applicationIcon/29da6376-a005-4adb-822b-d872ef0c9259/photo.jpg",
+				"redPacketsNum": 0,
+				"userAvator": "https://cdn.yonyoucloud.com/dev/yht/avatar/style/images/avatar/99ea7655-00a2-4bda-b23c-19ade37ea574/original/original.png",
+				"userAvatorNew": "https://cdn.yonyoucloud.com/dev/yht/avatar/style/images/avatar/99ea7655-00a2-4bda-b23c-19ade37ea574/original/original.png",
+				"userCode": "YHT-870-57415517002",
+				"userEmail": "u8c_vip@163.com",
+				"userId": "99ea7655-00a2-4bda-b23c-19ade37ea574",
+				"userMobile": "13198233257",
+				"userName": "u8c_vip@163.com",
+				defaultTheme: "grey",   //grey, paleblue , yellow, blue,
+			};
+		}
+
+	</script>
+</head>
+
+<body>
+	<div id="root"></div>
+	<script src="js/manifest.js"></script>
+	<script src="js/vendor.js"></script>
+	<script src="js/polyfill.js"></script>
+	<script src="js/main.js"></script>
+</body>
+
+</html>

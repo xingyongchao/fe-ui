@@ -1,0 +1,6 @@
+scripts/*.js
+config/*.js
+src/*
+en/*
+tw/*
+template/*

@@ -1,0 +1,106 @@
+.historyPart {
+    z-index: 1701;
+    position: absolute;
+    left: 0;
+    top: 32px;
+    user-select: none;
+}
+
+.historyPartInner {
+    background: #fff;
+    width: 200px;
+    padding-bottom: 10px;
+    overflow: auto;
+    border: 1px solid #d0d0d0;
+    box-shadow: 0px 3px 6px 0px rgba(74, 81, 93, 0.25);
+    margin-top: -1px;
+}
+
+.historyPartInner :global(.inner-header) {
+    width: 100%;
+    padding: 10px 8px;
+    border-bottom: 1px solid #d0d0d0;
+    overflow: hidden;
+}
+
+.historyPartInner :global(.inner-header label) {
+    float: left;
+    line-height: 22px;
+}
+
+.historyPartInner :global(.inner-header label.title) {
+    width: 70%;
+    font-size: 14px;
+    color: #111;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.historyPartInner :global(.inner-header label.all) {
+    width: 30%;
+    text-align: right;
+    font-size: 12px;
+    color: #007ace;
+    cursor: pointer;
+}
+
+.historyPartInner :global(.inner-header label.all:hover) {
+    color: #084E8A;
+}
+
+.historyPartInner ul{
+    min-height: 320px;
+    /* padding: 0 10px; */
+}
+
+.historyPartInner :global(.inner-list .history-item) {
+    position: relative;
+    padding-right: 20px;
+    display: block;
+    text-align: left;
+    font-size: 12px;
+    font-family: MicrosoftYaHei;
+    color: #555;
+    font-weight: 400;
+    line-height: 32px;
+    cursor: pointer;
+    padding: 0 30px 0 10px;
+}
+
+.historyPartInner :global(.inner-list .history-item:hover) {
+    background: #f3f5f9;
+    color: #505766;
+}
+.historyPartInner :global(.inner-list .history-item p ){
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+}
+.historyPartInner :global(.inner-list .history-item p i) {
+    position: relative;
+    top: 3px;
+    margin-right: 8px;
+    font-size: 18px;
+    font-weight: 100
+}
+
+.historyPartInner :global(.inner-list .history-item:hover i) {
+    color: #505766;
+}
+
+.historyPartInner :global(.inner-list .history-item > i){
+    display: none;
+    position: absolute;
+    right: 5px;
+    top: 0;
+    line-height: 32px;
+    font-weight: 100;
+    font-size: 18px;
+}
+
+
+.historyPartInner :global(.inner-list .history-item:hover > i) {
+    display: block;
+}

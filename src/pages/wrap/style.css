@@ -1,0 +1,42 @@
+.homeclass {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 3;
+    /* background: #A8ABB0; */
+}
+
+.mark {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 888;
+    background: rgba(255, 255, 255, 0);
+}
+
+
+.leftbg {
+    position: fixed;
+    z-index: 0;
+    left: 0;
+    top: 0;
+    width: 170px;
+    height: 270px;
+    background: url(assets/image/leftbg.png) no-repeat;
+    background-size: 170px 270px;
+}
+
+.rightbg {
+    position: fixed;
+    z-index: 0;
+    right: 0;
+    top: 0;
+    width: 538px;
+    height: 652px;
+    background: url(assets/image/rightbg.png) no-repeat 175px 0;
+    background-size: 538px 652px;
+}

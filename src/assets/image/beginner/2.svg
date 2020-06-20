@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="16px" viewBox="0 0 20 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>分组 16</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="188.891602%" y1="50%" x2="-35.0952148%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#F84749" offset="0%"></stop>
+            <stop stop-color="#FFCCCD" stop-opacity="0.595561594" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="20190125" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="新手引导1" transform="translate(-1162.000000, -167.000000)">
+            <g id="分组-16" transform="translate(1162.000000, 164.000000)">
+                <circle id="椭圆形" fill="url(#linearGradient-1)" opacity="0.5" cx="12" cy="11" r="8"></circle>
+                <text id="02" font-family="PingFang-SC-Bold, PingFang SC" font-size="16" font-weight="bold" fill="#F11D14">
+                    <tspan x="0" y="17">02</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
