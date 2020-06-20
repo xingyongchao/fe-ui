@@ -23,7 +23,7 @@ function makeRapConfig(key) {
 
 function makeStaticConfig(key) {
   var config = {
-    target: 'http://localhost:3002/static',
+    target: 'http://localhost:3000/static',
     pathRewrite: function (path, req) {
       return key + '.json';
     }

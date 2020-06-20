@@ -9,7 +9,7 @@ const config = {
   assetsPublicPath: '/',
   proxyTable,
   autoOpenBrowser: false,
-  port: 3002,
+  port: 3000,
 };
 
 config.webpackConfig = webpackConfig(config);
